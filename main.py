@@ -4,7 +4,7 @@ from modes.testing import testing_mode
 
 def main():
     while True:
-        print("\n🌟 Vocabulary Trainer")
+        print("\n Vocabulary Trainer")
         print("-------------------------")
         print("1. Editing Mode")
         print("2. Training Mode")
@@ -19,10 +19,10 @@ def main():
         elif choice == "3":
             testing_mode()
         elif choice == "4":
-            print("👋 Goodbye!")
+            print(" Goodbye!")
             break
         else:
-            print("❌ Invalid choice. Try again.")
+            print(" Invalid choice. Try again.")
 
 if __name__ == "__main__":
     main()
