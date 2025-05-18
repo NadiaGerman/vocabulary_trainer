@@ -5,7 +5,7 @@ def testing_mode():
     unit = input("Enter unit name to test (e.g. unit_1): ").strip()
 
     if unit not in vocab or not vocab[unit]:
-        print("⚠️ Unit does not exist or is empty.")
+        print(" Unit does not exist or is empty.")
         return
 
     words = vocab[unit]
@@ -13,20 +13,20 @@ def testing_mode():
     correct = 0
     incorrect_answers = []
 
-    print("\n🧪 Starting test... Type the Hebrew meaning for each English word.")
+    print("\n Starting test... Type the Hebrew meaning for each English word.")
 
     for entry in words:
         answer = input(f"{entry['word']}: ").strip().lower()
         correct_meaning = entry['meaning'].strip().lower()
 
         if answer == correct_meaning:
-            print("✅ Correct!")
+            print(" Correct!")
             correct += 1
         else:
-            print(f"❌ Wrong! The correct meaning is: {entry['meaning']}")
+            print(f" Wrong! The correct meaning is: {entry['meaning']}")
             incorrect_answers.append((entry['word'], entry['meaning']))
 
-    print("\n📊 Test complete!")
+    print("\n Test complete!")
     print(f"Score: {correct} out of {total} ({(correct / total) * 100:.1f}%)")
 
     if incorrect_answers:

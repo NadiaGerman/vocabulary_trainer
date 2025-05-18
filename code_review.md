@@ -1,13 +1,13 @@
 vocab_utils.py, which handles:
 
-✅ Responsibilities:
+ Responsibilities:
 Loading and saving vocab_hebrew.json
 Searching for a word in a unit
 Ensuring words are cleanly formatted (stripped, lowercase)
 Optional: creating a unit if it doesn't exist
 
 🔍 Code Review
-Function	✅ What it Does Well	📌 Notes
+Function	     What it Does Well	   Notes
 load_vocab()	Checks file existence, UTF-8 safe loading	
 save_vocab()	Saves with readable formatting	Uses ensure_ascii=False for Hebrew
 clean_word()	Normalizes input for comparisons	Lowercase + trimmed
@@ -60,3 +60,21 @@ Ask user to type the Hebrew meaning
 Case-insensitive comparison
 Track score
 Show feedback summary
+
+✅ Code Review
+
+Feature	Status ✅	Notes
+Unit check	✅	Prevents crash
+Answer validation	✅	Case-insensitive
+Score tracking	✅	Final summary with feedback
+UX feedback	✅	Shows correct answers
+
+main.py — the entry point that connects all three modes into one CLI application.
+
+✅ Code Review
+
+Part	Works As	Description
+Menu	✅	Shows clear, numbered options
+Routing	✅	Calls each mode via modes/ modules
+Exit Logic	✅	Clean exit on option 4
+Input Check	✅	Prevents unexpected input
