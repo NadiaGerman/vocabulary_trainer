@@ -82,3 +82,6 @@ This tool is part of a full-stack project for learning Hebrew vocabulary efficie
 
 Reach out via [GitHub](https://github.com/NadiaGerman) or open an issue.
 
+## 🧾 Function Cheat Sheet
+
+See [Function Cheat Sheet](vocabulary_trainer_cheat_sheet.md) for a detailed overview of all functions (English + Hebrew).
