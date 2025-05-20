@@ -1,42 +1,39 @@
 # main.py
-# This is the entry point of the Vocabulary Trainer app.
-# It provides a menu for the user to choose between Editing, Training, and Testing modes.
+# Entry point for the Vocabulary Trainer project
+# Provides a menu to select different modes: Editing, Training, Testing
 
-# Import functions for each mode from their respective files
 from modes.editing import editing_mode
 from modes.training import training_mode
 from modes.testing import testing_mode
 
-def main():
-    """
-    Main function that displays a simple text-based menu.
-    The user chooses between Editing, Training, Testing, or Exit.
-    """
+## Function: main
+## Purpose: Display main menu and route user input to appropriate modules
+## Returns: None
+def main() -> None:
     while True:
-        # Print the menu options
+        ## Display the main menu options to the user
         print("\n Vocabulary Trainer")
         print("-------------------------")
-        print("1. Editing Mode")   # Allows adding/updating/deleting words
-        print("2. Training Mode")  # Practice words with delayed meaning reveal
-        print("3. Testing Mode")   # Take a one-time quiz for a unit
-        print("4. Exit")           # Quit the app
+        print("1. Editing Mode")
+        print("2. Training Mode")
+        print("3. Testing Mode")
+        print("4. Exit")
 
-        # Get user choice
+        ## Take user input and route accordingly
         choice = input("Choose an option (1–4): ").strip()
 
-        # Run the selected mode
         if choice == "1":
-            editing_mode()  # Calls the editing interface
+            editing_mode()  ## Call editing mode
         elif choice == "2":
-            training_mode()  # Starts training session
+            training_mode()  ## Call training mode
         elif choice == "3":
-            testing_mode()  # Starts test session
+            testing_mode()  ## Call testing mode
         elif choice == "4":
-            print(" Goodbye!")
-            break  # Exit the while loop and end the app
+            print(" Goodbye!")  ## Exit message
+            break
         else:
-            print(" Invalid choice. Try again.")  # Invalid input handling
+            print(" Invalid choice. Try again.")  ## Handle invalid input
 
-# Start the app by calling the main function
+## Entry point check
 if __name__ == "__main__":
     main()

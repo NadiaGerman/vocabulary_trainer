@@ -81,3 +81,4 @@ This tool is part of a full-stack project for learning Hebrew vocabulary efficie
 ## 📬 Questions?
 
 Reach out via [GitHub](https://github.com/NadiaGerman) or open an issue.
+

@@ -23,6 +23,62 @@
         {
             "word": "orange",
             "meaning": "תפוז"
+        },
+        {
+            "word": "carrot",
+            "meaning": "גזר"
+        },
+        {
+            "word": "cucumber",
+            "meaning": "מלפפון"
+        },
+        {
+            "word": "tomato",
+            "meaning": "עגבנייה"
+        },
+        {
+            "word": "potato",
+            "meaning": "תפוח אדמה"
+        },
+        {
+            "word": "lettuce",
+            "meaning": "חסה"
+        },
+        {
+            "word": "onion",
+            "meaning": "בצל"
+        },
+        {
+            "word": "strawberry",
+            "meaning": "תות"
+        },
+        {
+            "word": "blueberry",
+            "meaning": "אוכמנייה"
+        },
+        {
+            "word": "cherry",
+            "meaning": "דובדבן"
+        },
+        {
+            "word": "melon",
+            "meaning": "מלון"
+        },
+        {
+            "word": "watermelon",
+            "meaning": "אבטיח"
+        },
+        {
+            "word": "plum",
+            "meaning": "שזיף"
+        },
+        {
+            "word": "pineapple",
+            "meaning": "אננס"
+        },
+        {
+            "word": "broccoli",
+            "meaning": "ברוקולי"
         }
     ],
     "unit_2": [
@@ -45,6 +101,66 @@
         {
             "word": "teacher",
             "meaning": "מורה"
+        },
+        {
+            "word": "notebook",
+            "meaning": "מחברת"
+        },
+        {
+            "word": "eraser",
+            "meaning": "מחק"
+        },
+        {
+            "word": "ruler",
+            "meaning": "סרגל"
+        },
+        {
+            "word": "chalk",
+            "meaning": "גיר"
+        },
+        {
+            "word": "blackboard",
+            "meaning": "לוח"
+        },
+        {
+            "word": "student",
+            "meaning": "תלמיד"
+        },
+        {
+            "word": "backpack",
+            "meaning": "תיק גב"
+        },
+        {
+            "word": "homework",
+            "meaning": "שיעורי בית"
+        },
+        {
+            "word": "exam",
+            "meaning": "מבחן"
+        },
+        {
+            "word": "classroom",
+            "meaning": "כיתה"
+        },
+        {
+            "word": "desk",
+            "meaning": "שולחן"
+        },
+        {
+            "word": "chair",
+            "meaning": "כיסא"
+        },
+        {
+            "word": "lesson",
+            "meaning": "שיעור"
+        },
+        {
+            "word": "recess",
+            "meaning": "הפסקה"
+        },
+        {
+            "word": "library",
+            "meaning": "ספריה"
         }
     ],
     "unit_3": [
@@ -67,6 +183,66 @@
         {
             "word": "rain",
             "meaning": "גשם"
+        },
+        {
+            "word": "snow",
+            "meaning": "שלג"
+        },
+        {
+            "word": "storm",
+            "meaning": "סופה"
+        },
+        {
+            "word": "lightning",
+            "meaning": "ברק"
+        },
+        {
+            "word": "thunder",
+            "meaning": "רעם"
+        },
+        {
+            "word": "fog",
+            "meaning": "ערפל"
+        },
+        {
+            "word": "wind",
+            "meaning": "רוח"
+        },
+        {
+            "word": "breeze",
+            "meaning": "משב רוח"
+        },
+        {
+            "word": "rainbow",
+            "meaning": "קשת"
+        },
+        {
+            "word": "field",
+            "meaning": "שדה"
+        },
+        {
+            "word": "hill",
+            "meaning": "גבעה"
+        },
+        {
+            "word": "valley",
+            "meaning": "עמק"
+        },
+        {
+            "word": "leaf",
+            "meaning": "עלה"
+        },
+        {
+            "word": "branch",
+            "meaning": "ענף"
+        },
+        {
+            "word": "forest",
+            "meaning": "יער"
+        },
+        {
+            "word": "volcano",
+            "meaning": "הר געש"
         }
     ]
 }

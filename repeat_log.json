@@ -23,8 +23,8 @@
         "garlic": 0
     },
     "unit_2": {
-        "book": 0,
-        "pen": 0,
+        "book": 1,
+        "pen": 1,
         "pencil": 0,
         "school": 0,
         "teacher": 0,

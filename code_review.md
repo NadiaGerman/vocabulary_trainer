@@ -1,6 +1,6 @@
 vocab_utils.py, which handles:
 
- Responsibilities:
+Responsibilities:
 Loading and saving vocab_hebrew.json
 Searching for a word in a unit
 Ensuring words are cleanly formatted (stripped, lowercase)
@@ -16,7 +16,7 @@ ensure_unit_exists()	Simplifies logic in all modes
 
 modes/editing.py, which will handle:
 
-✍️ Editing Mode Functions:
+Editing Mode Functions:
 
 Add new word to a unit
 Delete a word from a unit
@@ -24,17 +24,17 @@ Update a word or its meaning
 List all words in a unit
 Return to main menu
 
-✅ Code Review
+Code Review
 
 Function	Works As	Strengths	Notes
-add_word()	✅	Avoids duplicates, creates unit if missing	
-delete_word()	✅	Adds confirmation prompt before deletion	
-update_word()	✅	Replaces word & meaning in one step	Could allow partial edits (optional)
-list_words()	✅	Lists all entries in unit cleanly
+add_word()		Avoids duplicates, creates unit if missing	
+delete_word()		Adds confirmation prompt before deletion	
+update_word()		Replaces word & meaning in one step	Could allow partial edits (optional)
+list_words()		Lists all entries in unit cleanly
 
 modes/training.py, which will handle:
 
-🎓 Training Mode – Purpose
+Training Mode – Purpose
 
 Practice vocabulary with delayed reveal:
 
@@ -43,7 +43,7 @@ Wait (or press Enter)
 Show Hebrew meaning
 Optionally allow full unit or word range
 
-✅ Code Review
+Code Review
 
 Part	Behavior	Strengths
 unit check	Verifies unit existence	Prevents crash
@@ -53,7 +53,7 @@ Delay	Small pause after answer	Improves pacing
 
 modes/testing.py, which runs a one-time quiz for a chosen unit.
 
-🧪 Testing Mode – Purpose
+Testing Mode – Purpose
 
 Show each English word
 Ask user to type the Hebrew meaning
@@ -61,20 +61,20 @@ Case-insensitive comparison
 Track score
 Show feedback summary
 
-✅ Code Review
+Code Review
 
-Feature	Status ✅	Notes
-Unit check	✅	Prevents crash
-Answer validation	✅	Case-insensitive
-Score tracking	✅	Final summary with feedback
-UX feedback	✅	Shows correct answers
+Feature	Status 	Notes
+Unit check		Prevents crash
+Answer validation		Case-insensitive
+Score tracking		Final summary with feedback
+UX feedback		Shows correct answers
 
 main.py — the entry point that connects all three modes into one CLI application.
 
-✅ Code Review
+Code Review
 
 Part	Works As	Description
-Menu	✅	Shows clear, numbered options
-Routing	✅	Calls each mode via modes/ modules
-Exit Logic	✅	Clean exit on option 4
-Input Check	✅	Prevents unexpected input
+Menu	Shows clear, numbered options
+Routing 	Calls each mode via modes/ modules
+Exit Logic		Clean exit on option 4
+Input Check		Prevents unexpected input
